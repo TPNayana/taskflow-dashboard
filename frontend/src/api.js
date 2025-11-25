@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://taskflow-dashboard-oboe.onrender.com',
+  baseURL:'https://taskflow-dashboard-oboe.onrender.com/api',
 });
 
 // Automatically add the token to every request if it exists
